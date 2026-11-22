@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0C0D10" media="(prefers-color-scheme: dark)">
+
+  <!-- Resolve the theme before first paint so there is no flash. -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'dark' || saved === 'light') {
+          document.documentElement.setAttribute('data-theme', saved);
+        }
+      } catch (e) { /* private mode / blocked storage: fall back to the system */ }
+    })();
+  </script>
+
+  <title>Hafizun Nisha — MBA Candidate, Finance &amp; Marketing</title>
+  <meta name="description" content="MBA candidate at Berhampur University with a B.Com (Honours) foundation in accounting and finance, seeking a Finance and Marketing internship. Based in Berhampur, Odisha, India.">
+  <meta name="author" content="Hafizun Nisha">
+  <meta name="keywords" content="Hafizun Nisha,MBA,Berhampur University,B.Com,finance internship,marketing internship,financial research,market research,Tally Prime,GST,Microsoft Excel,Berhampur,Odisha">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Hafizun Nisha — MBA Candidate, Finance &amp; Marketing">
+  <meta property="og:description" content="MBA candidate at Berhampur University seeking a Finance and Marketing internship. B.Com (Honours), Tally Prime with GST certified.">
+  <meta property="og:url" content="https://sayedhafizun.github.io/">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://sayedhafizun.github.io/">
+
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/css/site.css?v=34" rel="stylesheet">
+
+  <script type="importmap">
+  { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+  </script>
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <span id="top" aria-hidden="true"></span>
+
+  <!-- ===== nav ===== -->
+  <header class="nav">
+    <div class="wrap nav__in">
+      <a href="#top" class="nav__mark">
+        <span>Hafizun Nisha</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Sections">
+        <a class="nav__link" href="#education">Education</a>
+        <a class="nav__link" href="#leadership">Leadership</a>
+        <a class="nav__link" href="#skills">Skills</a>
+        <a class="nav__link" href="#more">Certifications</a>
+        <a class="nav__link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--ghost btn--sm" href="https://drive.google.com/file/d/1wasVStKOb9TdWz2i2IY9QgO1WO9GPTiN/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <i class="ri-file-text-line" aria-hidden="true"></i> Résumé
+        </a>
+        <a class="btn btn--primary btn--sm" href="#contact">Get in touch</a>
+        <button class="themer" type="button" id="themer" aria-label="Switch theme" title="Switch theme" aria-pressed="false">
+          <i class="ri-moon-line" aria-hidden="true"></i>
+          <i class="ri-sun-line" aria-hidden="true"></i>
+        </button>
+        <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="sheet">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav__prog" aria-hidden="true"><span id="nav-prog"></span></div>
+  </header>
+
+  <div class="sheet" id="sheet">
+    <a href="#education">Education</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#skills">Skills</a>
+    <a href="#more">Certifications</a>
+    <a href="#contact">Contact</a>
+    <a class="btn btn--primary" href="https://drive.google.com/file/d/1wasVStKOb9TdWz2i2IY9QgO1WO9GPTiN/view?usp=sharing" target="_blank" rel="noopener noreferrer">View résumé</a>
+    <a class="btn btn--ghost" href="#contact">Get in touch</a>
+  </div>
+
+  <main id="main">
+
+    <!-- ===== intro curtain =====
+         A real 100svh section, not an overlay: the stage sticks to the top,
+         fades out as you scroll through it, and hands the viewport to the
+         hero underneath. No timers, no scroll-jacking, no trapped page. -->
+    <section class="intro" aria-hidden="true">
+      <div class="intro__stage">
+        <p class="intro__name">
+          <span class="intro__w">Hafizun</span>
+          <span class="intro__w">Nisha</span>
+        </p>
+        <span class="intro__rule"></span>
+        <span class="intro__sub">MBA Candidate · Finance &amp; Marketing</span>
+        <span class="intro__hint"><i class="ri-arrow-down-line" aria-hidden="true"></i> Scroll</span>
+      </div>
+    </section>
+
+    <!-- ===== hero ===== -->
+    <section class="hero">
+
+      <div class="wrap hero__in">
+        <span class="avail rv"><span class="avail__dot" aria-hidden="true"></span> Seeking a Finance &amp; Marketing internship</span>
+
+        <h1 class="rv" data-d="1">Finance foundations, a marketer&rsquo;s curiosity.</h1>
+
+        <p class="hero__role rv" data-d="1">
+          <strong>MBA candidate</strong> at
+          <a href="#education">Berhampur University</a>, Odisha, India
+        </p>
+
+        <p class="lede rv" data-d="2">
+          MBA candidate with a Bachelor of Commerce (Honours) foundation in accounting and finance,
+          keen to contribute to financial research and basic analysis, marketing research, and brand
+          positioning and market insights. Brings strong research, documentation and communication
+          skills, working knowledge of Microsoft Excel, and hands-on experience leading a team of
+          8 volunteers for a college cultural fest.
+        </p>
+
+        <div class="hero__cta rv" data-d="2">
+          <a class="btn btn--primary" href="https://drive.google.com/file/d/1wasVStKOb9TdWz2i2IY9QgO1WO9GPTiN/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <i class="ri-external-link-line" aria-hidden="true"></i> View résumé
+          </a>
+          <a class="btn btn--ghost" href="mailto:sayedhafizun@gmail.com">
+            <i class="ri-mail-line" aria-hidden="true"></i> sayedhafizun@gmail.com
+          </a>
+        </div>
+
+        <p class="hero__meta rv" data-d="2">
+          <span><i class="ri-map-pin-line" aria-hidden="true"></i> Berhampur, Odisha</span>
+          <span><i class="ri-graduation-cap-line" aria-hidden="true"></i> MBA, 2026 – Present</span>
+          <span><i class="ri-award-line" aria-hidden="true"></i> Tally Prime with GST, Grade A</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== outcomes ===== -->
+    <section class="section section--outcomes">
+      <div class="wrap">
+        <div class="outcomes">
+          <div class="outcome rv">
+            <div class="outcome__n data"><span data-count="8">8</span></div>
+            <p class="outcome__t">Volunteers led</p>
+            <p class="outcome__d">Assigned tasks and coordinated activities as core member of the Navrang cultural fest.</p>
+          </div>
+          <div class="outcome rv" data-d="1">
+            <div class="outcome__n data">~<span data-count="200">200</span></div>
+            <p class="outcome__t">Attendees managed</p>
+            <p class="outcome__d">Crowd flow and on-ground logistics, run end to end from planning through execution.</p>
+          </div>
+          <div class="outcome rv" data-d="2">
+            <div class="outcome__n data"><span data-count="5">5</span></div>
+            <p class="outcome__t">Languages spoken</p>
+            <p class="outcome__d">English, Hindi, Odia, Urdu and Bengali.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== education ===== -->
+    <section class="section" id="education">
+      <div class="wrap">
+        <div class="section-head rv">
+          <h2>Education</h2>
+          <p>An MBA in progress, built on a commerce degree in accounting and finance.</p>
+        </div>
+
+        <article class="job rv">
+          <div>
+            <p class="job__when data">2026 – Present</p>
+            <span class="job__chip job__chip--now">Current</span>
+          </div>
+          <div>
+            <div class="job__co">
+              <h3>Berhampur University</h3>
+              <span class="job__where">Berhampur, Odisha</span>
+            </div>
+            <p class="job__title">Master of Business Administration (MBA)</p>
+          </div>
+        </article>
+
+        <article class="job rv">
+          <div>
+            <p class="job__when data">2022 – 2025</p>
+          </div>
+          <div>
+            <div class="job__co">
+              <h3>Gopalpur College</h3>
+              <span class="job__where">Gopalpur, Odisha</span>
+            </div>
+            <p class="job__title">Bachelor of Commerce (B.Com), Honours</p>
+            <ul>
+              <li>CGPA: <b>5.83</b></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="job rv">
+          <div>
+            <p class="job__when data">2020 – 2022</p>
+          </div>
+          <div>
+            <div class="job__co">
+              <h3>Binayak Acharya Junior College</h3>
+              <span class="job__where">Berhampur, Odisha</span>
+            </div>
+            <p class="job__title">Higher Secondary (Class XII)</p>
+            <ul>
+              <li>Percentage: <b>61.5%</b></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="job rv">
+          <div>
+            <p class="job__when data">2020</p>
+          </div>
+          <div>
+            <div class="job__co">
+              <h3>Girls High School</h3>
+              <span class="job__where">Berhampur, Odisha</span>
+            </div>
+            <p class="job__title">Secondary School (Class X)</p>
+            <ul>
+              <li>Percentage: <b>54%</b></li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== leadership ===== -->
+    <section class="section" id="leadership">
+      <div class="wrap">
+        <div class="section-head rv">
+          <h2>Leadership &amp; volunteering</h2>
+          <p>Planning, people and logistics, run end to end.</p>
+        </div>
+
+        <article class="job rv">
+          <div>
+            <span class="job__chip">Volunteer</span>
+          </div>
+          <div>
+            <div class="job__co">
+              <h3>Gopalpur College</h3>
+              <span class="job__where">Berhampur, Odisha</span>
+            </div>
+            <p class="job__title">Core Member, Navrang Cultural Fest</p>
+            <ul>
+              <li>Managed the Navrang cultural fest of Gopalpur College end to end, from planning through execution.</li>
+              <li>Led a team of <b class="win">8 volunteers</b>, assigning tasks and coordinating event activities to ensure smooth operations.</li>
+              <li>Managed crowd flow and on-ground logistics for about <b class="win">200 attendees</b>.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== skills ===== -->
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head rv">
+          <h2>Skills</h2>
+          <p>Grouped by what they do, taken straight from the résumé.</p>
+        </div>
+
+        <div class="rv">
+          <div class="skillrow">
+            <p class="skillrow__k">Finance</p>
+            <div class="tags">
+              <span class="tag">Financial Research</span><span class="tag">Comparative Analysis</span><span class="tag">Basic Taxation and Compliance</span>
+            </div>
+          </div>
+          <div class="skillrow">
+            <p class="skillrow__k">Core competencies</p>
+            <div class="tags">
+              <span class="tag">Research and Analysis</span><span class="tag">Documentation and Reporting</span><span class="tag">Communication and Presentation</span><span class="tag">Problem Solving and Critical Thinking</span><span class="tag">Time Management</span><span class="tag">Adaptability</span><span class="tag">Learning Agility</span>
+            </div>
+          </div>
+          <div class="skillrow">
+            <p class="skillrow__k">Leadership &amp; teamwork</p>
+            <div class="tags">
+              <span class="tag">Team Leadership</span><span class="tag">Event Planning and Management</span><span class="tag">Working Independently and in Teams</span>
+            </div>
+          </div>
+          <div class="skillrow">
+            <p class="skillrow__k">Software</p>
+            <div class="tags">
+              <span class="tag">Microsoft Excel</span><span class="tag">Microsoft Word</span><span class="tag">Microsoft PowerPoint</span><span class="tag">Tally Prime</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== certifications & more ===== -->
+    <section class="section" id="more">
+      <div class="wrap">
+        <div class="section-head rv">
+          <h2>Certifications &amp; more</h2>
+        </div>
+
+        <div class="twoup rv">
+          <div>
+            <h3>Certifications</h3>
+            <div class="entry">
+              <h4>Tally Prime with GST</h4>
+              <p class="entry__sub">Unitech Computer Training Centre</p>
+              <p class="entry__meta data">2025 · Grade A</p>
+              <p><a class="btn btn--ghost btn--sm" href="https://drive.google.com/file/d/15F6bYJ8FgSXsq5011apx2-ZOuZEgH1La/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="ri-external-link-line" aria-hidden="true"></i> View certificate</a></p>
+            </div>
+          </div>
+
+          <div>
+            <h3>Additional information</h3>
+            <div class="entry">
+              <h4>Languages</h4>
+              <p>English, Hindi, Odia, Urdu, Bengali</p>
+            </div>
+            <div class="entry">
+              <h4>Interests</h4>
+              <p>Travelling, Badminton, Art and Craft</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== contact ===== -->
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="section-head rv">
+          <h2>Get in touch</h2>
+          <p>Open to Finance and Marketing internship opportunities.</p>
+        </div>
+
+        <div class="contact">
+          <div class="rv">
+            <div class="chan">
+              <i class="ri-mail-line" aria-hidden="true"></i>
+              <div><p class="chan__k">Email</p><p class="chan__v"><a href="mailto:sayedhafizun@gmail.com">sayedhafizun@gmail.com</a></p></div>
+            </div>
+            <div class="chan">
+              <i class="ri-phone-line" aria-hidden="true"></i>
+              <div><p class="chan__k">Phone</p><p class="chan__v"><a href="tel:+917205440229">+91 72054 40229</a></p></div>
+            </div>
+            <div class="chan">
+              <i class="ri-map-pin-line" aria-hidden="true"></i>
+              <div><p class="chan__k">Location</p><p class="chan__v">Berhampur, Odisha 760001, India</p></div>
+            </div>
+          </div>
+
+          <form class="form rv" id="contact-form" action="https://formspree.io/f/mbgoprdy" method="post">
+            <div class="form__row">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@company.com" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Internship, role, or question" required>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="A few lines about the opportunity." required></textarea>
+            </div>
+            <div class="form__foot">
+              <p class="form__note" role="status" aria-live="polite"></p>
+              <button type="submit" class="btn btn--primary">
+                <i class="ri-send-plane-line" aria-hidden="true"></i> Send message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <div class="foot">
+      <small>© <span id="year">2026</span> Hafizun Nisha</small>
+      <div class="social">
+        <a href="mailto:sayedhafizun@gmail.com" aria-label="Email"><i class="ri-mail-line" aria-hidden="true"></i></a>
+        <a href="tel:+917205440229" aria-label="Phone"><i class="ri-phone-line" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js?v=28" defer></script>
+  <script type="module" src="assets/js/scene.js?v=17"></script>
+</body>
+
+</html>

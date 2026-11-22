@@ -1,0 +1,5 @@
+# Local design-tooling state, not site content.
+.impeccable/
+
+# Editor settings.
+.idea/

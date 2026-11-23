@@ -39,7 +39,8 @@ Source of truth: her résumé, linked from Google Drive (update in place via Man
 `https://drive.google.com/file/d/1wasVStKOb9TdWz2i2IY9QgO1WO9GPTiN/view?usp=sharing`
 
 **Contact:** Berhampur, Odisha 760001, India · +91 72054 40229 ·
-sayedhafizun@gmail.com · sayedhafizun.github.io
+sayedhafizun@gmail.com · sayedhafizun.github.io ·
+linkedin.com/in/sayed-hafizun
 
 **Education:**
 - Berhampur University — MBA, 2026–Present, Berhampur, Odisha
@@ -47,12 +48,20 @@ sayedhafizun@gmail.com · sayedhafizun.github.io
 - Binayak Acharya Junior College — Higher Secondary (XII), 2020–2022, 61.5%
 - Girls High School — Secondary (X), 2020, 54%
 
-**Leadership:** Core Member, Navrang Cultural Fest, Gopalpur College — ran the
-fest end to end, led 8 volunteers, managed crowd flow and logistics for ~200
-attendees.
+**Experience:** Social Media Manager (Part-time), Taj Nursery, Feb 2024–Present,
+Berhampur, Odisha (Remote) — ran Meta ad campaigns end to end to grow brand
+visibility and engagement; designed posters and promotional videos in Canva;
+ran A/B tests and tracked ad metrics to refine targeting and improve ROAS.
+
+**Leadership (summary only):** led a team of 8 volunteers for a college
+cultural fest. The résumé no longer lists the Navrang fest as its own entry.
 
 **Skills (verbatim groupings):**
-- Finance: Financial Research, Comparative Analysis, Basic Taxation and Compliance
+- Finance & Accounting: Basic Accounting Knowledge, Fundamentals of Financial
+  Research, Basic Understanding of GST and Taxation, Basic Financial Data
+  Comparison
+- Marketing: Fundamentals of Market Research, Basic Understanding of Brand
+  Positioning, Basic Competitor Analysis, Gathering Market Insights
 - Core Competencies: Research and Analysis, Documentation and Reporting,
   Communication and Presentation, Problem Solving and Critical Thinking, Time
   Management, Adaptability, Learning Agility
@@ -67,8 +76,8 @@ Grade A (2025). Certificate:
 **Additional:** Languages — English, Hindi, Odia, Urdu, Bengali. Interests —
 Travelling, Badminton, Art and Craft.
 
-**Explicitly absent — never fabricate:** no work experience, projects,
-testimonials, LinkedIn or GitHub. Do not invent metrics or proficiency levels.
+**Explicitly absent — never fabricate:** no projects, testimonials or GitHub,
+and no work experience beyond Taj Nursery. Do not invent metrics or proficiency levels.
 
 ## Product Principles
 

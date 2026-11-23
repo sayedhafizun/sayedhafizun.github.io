@@ -62,7 +62,7 @@ attendees.
 
 **Certification:** Tally Prime with GST — Unitech Computer Training Centre,
 Grade A (2025). Certificate:
-`https://drive.google.com/file/d/15F6bYJ8FgSXsq5011apx2-ZOuZEgH1La/view?usp=sharing`
+`https://drive.google.com/file/d/1iE3vARBiAhuuZAN9un3FIZd1hZ51ucEM/view?usp=sharing`
 
 **Additional:** Languages — English, Hindi, Odia, Urdu, Bengali. Interests —
 Travelling, Badminton, Art and Craft.
